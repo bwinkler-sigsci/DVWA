@@ -34,6 +34,16 @@ You should have received a copy of the GNU General Public License
 along with Damn Vulnerable Web Application (DVWA).  If not, see http://www.gnu.org/licenses/.
 
 - - -
+## OPTION 1 - One click install on Heroku
+The the quickest way to get running with DVWA is to click the button below to deploy it on Heroku.
+
+Even though it is not essential, but recommended that you fork this repository and deploy the forked repo.
+This would allow you to fix vulnerabilities in your own forked version, and deploy and test it on heroku.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+This Heroku instance uses Free ($0/month) server and JawsDB add-on.
+
 ## Download and install as a docker container
 - [dockerhub page](https://hub.docker.com/r/vulnerables/web-dvwa/)
 `docker run --rm -it -p 80:80 vulnerables/web-dvwa`
